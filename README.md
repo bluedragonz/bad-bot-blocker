@@ -1,8 +1,13 @@
 Bad Bot Blocker
 ===============
 
-229 htaccess rules to keep trouble out of your website.
+Block bad bots using our 229 htaccess rules.
 
-Block bad, possibly even malicious web crawlers (automated bots) using htaccess.
+Some of the stuff blocked:
 
-Web scrapers and visitors with an empty useragent are blocked as well.
+- E-mail Harvesters
+- Content Scrapers
+- Spam Bots
+- Wget/Curl
+- Aggressive bots that provide little value
+- Bots linked to viruses or malware
