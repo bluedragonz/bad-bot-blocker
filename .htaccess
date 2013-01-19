@@ -3,7 +3,6 @@ RewriteEngine on
 
 # Block Bad Bots & Scrapers
 SetEnvIfNoCase User-Agent "360Spider" bad_bot
-SetEnvIfNoCase User-Agent "^Atomic" bad_bot
 SetEnvIfNoCase User-Agent "^Java" bad_bot
 SetEnvIfNoCase User-Agent "^Cogentbot" bad_bot
 SetEnvIfNoCase User-Agent "^Alexibot" bad_bot
@@ -58,15 +57,9 @@ SetEnvIfNoCase User-Agent "^Exabot" bad_bot
 SetEnvIfNoCase User-Agent "^Express\ WebPictures" bad_bot
 SetEnvIfNoCase User-Agent "Extractor" bad_bot
 SetEnvIfNoCase User-Agent "^EyeNetIE" bad_bot
-SetEnvIfNoCase User-Agent "^FileHound" bad_bot
-SetEnvIfNoCase User-Agent "^FlashGet" bad_bot
 SetEnvIfNoCase User-Agent "^Foobot" bad_bot
 SetEnvIfNoCase User-Agent "^flunky" bad_bot
 SetEnvIfNoCase User-Agent "^FrontPage" bad_bot
-SetEnvIfNoCase User-Agent "^GetRight" bad_bot
-SetEnvIfNoCase User-Agent "^GetSmart" bad_bot
-SetEnvIfNoCase User-Agent "^GetWeb!" bad_bot
-SetEnvIfNoCase User-Agent "^Go!Zilla" bad_bot
 SetEnvIfNoCase User-Agent "Google\ Wireless\ Transcoder" bad_bot
 SetEnvIfNoCase User-Agent "^Go-Ahead-Got-It" bad_bot
 SetEnvIfNoCase User-Agent "^gotit" bad_bot
@@ -76,7 +69,6 @@ SetEnvIfNoCase User-Agent "^Grafula" bad_bot
 SetEnvIfNoCase User-Agent "^Harvest" bad_bot
 SetEnvIfNoCase User-Agent "^hloader" bad_bot
 SetEnvIfNoCase User-Agent "^HMView" bad_bot
-SetEnvIfNoCase User-Agent "^httplib" bad_bot
 SetEnvIfNoCase User-Agent "^HTTrack" bad_bot
 SetEnvIfNoCase User-Agent "^humanlinks" bad_bot
 SetEnvIfNoCase User-Agent "^IlseBot" bad_bot
