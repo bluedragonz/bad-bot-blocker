@@ -235,5 +235,17 @@ SetEnvIfNoCase User-Agent "^Zyborg" bad_bot
 <Limit GET POST HEAD>
 Order Allow,Deny
 Allow from all
+# Cyveillance
+deny from 38.100.19.8/29
+deny from 38.100.21.0/24
+deny from 38.100.41.64/26
+deny from 38.105.71.0/25
+deny from 38.105.83.0/27
+deny from 38.112.21.140/30
+deny from 38.118.42.32/29
+deny from 65.213.208.128/27
+deny from 65.222.176.96/27
+deny from 65.222.185.72/29
+deny from 38.0.0.0/8
 Deny from env=bad_bot
 </Limit>
