@@ -15,9 +15,9 @@ Some of the stuff blocked:
 - Chinese search engine Baidu
 
 You should disable the rules for Yandex or Baidu if you want
-them to index your website. Unless your website is written
+them to index your website. But unless your website is written
 in Russian or Chinese, you probably won't get any traffic
-from them. They mostly just waste bandwidth.
+from them. They mostly just waste bandwidth and consume resources.
 
 Many of the rules look harmless or perfectly legitimate
 such as, "^Java" but it's actually one of the most
