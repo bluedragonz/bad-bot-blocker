@@ -1,7 +1,7 @@
 Bad Bot Blocker
 ===============
 
-229 htaccess rules to block bad bots.
+240 htaccess rules to block bad bots.
 
 Some of the stuff blocked:
 
@@ -12,4 +12,4 @@ Some of the stuff blocked:
 - Aggressive bots that provide little value
 - Bots without a useragent
 - Bots linked to viruses or malware
-- Government intelligence bots
+- Government surveillance bots (Cyveillance)
