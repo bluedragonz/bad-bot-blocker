@@ -1,7 +1,7 @@
 Bad Bot Blocker
 ===============
 
-236 htaccess rules to block bad bots.
+235 htaccess rules to block bad bots.
 
 Some of the stuff blocked:
 
