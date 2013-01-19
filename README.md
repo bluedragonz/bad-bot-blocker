@@ -19,8 +19,8 @@ them to index your website. But unless your website is written
 in Russian or Chinese, you probably won't get any traffic
 from them. They mostly just waste bandwidth and consume resources.
 
-Many of the rules look harmless or perfectly legitimate
-such as, "^Java" but it's actually one of the most
-malicious useragents to allow on your website. These
-bots don't have your best interest in mind.
+Bots frequently try to make themselves look like other software by
+disguising their useragent. Many of the rules look harmless or
+perfectly legitimate such as, "^Java" but it's actually one of the most
+potentially dangerous useragents.
 
