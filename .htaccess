@@ -32,11 +32,9 @@ SetEnvIfNoCase User-Agent "^cosmos" bad_bot
 SetEnvIfNoCase User-Agent "^Crescent" bad_bot
 SetEnvIfNoCase User-Agent "^Custo" bad_bot
 SetEnvIfNoCase User-Agent "^AIBOT" bad_bot
-SetEnvIfNoCase User-Agent "^DA" bad_bot
 SetEnvIfNoCase User-Agent "^DISCo" bad_bot
 SetEnvIfNoCase User-Agent "^DIIbot" bad_bot
 SetEnvIfNoCase User-Agent "^DittoSpyder" bad_bot
-SetEnvIfNoCase User-Agent "^Download" bad_bot
 SetEnvIfNoCase User-Agent "^Download\ Demon" bad_bot
 SetEnvIfNoCase User-Agent "^Download\ Devil" bad_bot
 SetEnvIfNoCase User-Agent "^Download\ Wonder" bad_bot
@@ -85,7 +83,6 @@ SetEnvIfNoCase User-Agent "^Jyxobot" bad_bot
 SetEnvIfNoCase User-Agent "^Kenjin.Spider" bad_bot
 SetEnvIfNoCase User-Agent "^Keyword.Density" bad_bot
 SetEnvIfNoCase User-Agent "^larbin" bad_bot
-SetEnvIfNoCase User-Agent "^LeechFTP" bad_bot
 SetEnvIfNoCase User-Agent "^LexiBot" bad_bot
 SetEnvIfNoCase User-Agent "^lftp" bad_bot
 SetEnvIfNoCase User-Agent "^libWeb/clsHTTP" bad_bot
@@ -198,7 +195,6 @@ SetEnvIfNoCase User-Agent "^WebLeacher" bad_bot
 SetEnvIfNoCase User-Agent "^WebmasterWorldForumBot" bad_bot
 SetEnvIfNoCase User-Agent "^WebReaper" bad_bot
 SetEnvIfNoCase User-Agent "^WebSauger" bad_bot
-SetEnvIfNoCase User-Agent "^WebSite" bad_bot
 SetEnvIfNoCase User-Agent "^Website\ eXtractor" bad_bot
 SetEnvIfNoCase User-Agent "^Website\ Quester" bad_bot
 SetEnvIfNoCase User-Agent "^Webster" bad_bot
