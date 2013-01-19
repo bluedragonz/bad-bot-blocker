@@ -23,7 +23,7 @@ Bots frequently try to make themselves look like other software by
 disguising their useragent. Many of the rules look harmless or
 perfectly legitimate, such as, "^Java" but it's actually one of the most
 potentially dangerous useragents. And it has no known legitimate purpose
-that in use today.
+that is in use today.
 
 If you have a bizarre or complicated setup, be sure to look everything
 over before using it. But for everyone else, this should work without
