@@ -16,7 +16,7 @@ Some of the stuff blocked:
 
 You should disable the rules for Yandex or Baidu if you want
 them to index your website. But unless your website is written
-in Russian or Chinese, you probably won't get any traffic
+in Russian or Chinese, you probably don't get any traffic
 from them. They mostly just waste bandwidth and consume resources.
 
 Bots frequently try to make themselves look like other software by
