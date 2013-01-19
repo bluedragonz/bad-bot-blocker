@@ -25,7 +25,7 @@ Bots Are Liars
 --------------
 
 Bots try to make themselves look like other software by disguising their
-useragent. Their useragents look harmless, perfectly legitimate even.
+useragent. Their useragents may look harmless, perfectly legitimate even.
 For example, "^Java" but according to
 [Project Honeypot](https://www.projecthoneypot.org/harvester_useragents.php),
 it's actually one of the most dangerous.
