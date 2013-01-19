@@ -31,8 +31,6 @@ SetEnvIfNoCase User-Agent "^CopyRightCheck" bad_bot
 SetEnvIfNoCase User-Agent "^cosmos" bad_bot
 SetEnvIfNoCase User-Agent "^Crescent" bad_bot
 SetEnvIfNoCase User-Agent "^Custo" bad_bot
-SetEnvIfNoCase User-Agent "Baiduspider" bad_bot
-SetEnvIfNoCase User-Agent "Yandex" bad_bot
 SetEnvIfNoCase User-Agent "^AIBOT" bad_bot
 SetEnvIfNoCase User-Agent "^DA" bad_bot
 SetEnvIfNoCase User-Agent "^DISCo" bad_bot
@@ -42,7 +40,6 @@ SetEnvIfNoCase User-Agent "^Download" bad_bot
 SetEnvIfNoCase User-Agent "^Download\ Demon" bad_bot
 SetEnvIfNoCase User-Agent "^Download\ Devil" bad_bot
 SetEnvIfNoCase User-Agent "^Download\ Wonder" bad_bot
-SetEnvIfNoCase User-Agent "Downloader" bad_bot
 SetEnvIfNoCase User-Agent "^dragonfly" bad_bot
 SetEnvIfNoCase User-Agent "^Drip" bad_bot
 SetEnvIfNoCase User-Agent "^eCatch" bad_bot
@@ -60,10 +57,8 @@ SetEnvIfNoCase User-Agent "^EyeNetIE" bad_bot
 SetEnvIfNoCase User-Agent "^Foobot" bad_bot
 SetEnvIfNoCase User-Agent "^flunky" bad_bot
 SetEnvIfNoCase User-Agent "^FrontPage" bad_bot
-SetEnvIfNoCase User-Agent "Google\ Wireless\ Transcoder" bad_bot
 SetEnvIfNoCase User-Agent "^Go-Ahead-Got-It" bad_bot
 SetEnvIfNoCase User-Agent "^gotit" bad_bot
-SetEnvIfNoCase User-Agent "Grabber" bad_bot
 SetEnvIfNoCase User-Agent "^GrabNet" bad_bot
 SetEnvIfNoCase User-Agent "^Grafula" bad_bot
 SetEnvIfNoCase User-Agent "^Harvest" bad_bot
@@ -220,9 +215,17 @@ SetEnvIfNoCase User-Agent "^Xenu" bad_bot
 SetEnvIfNoCase User-Agent "^Zeus" bad_bot
 SetEnvIfNoCase User-Agent "^Zyborg" bad_bot
 
+# Aggressive Chinese Search Engine
+SetEnvIfNoCase User-Agent "Baiduspider" bad_bot
+
+# Aggressive Russian Search Engine
+SetEnvIfNoCase User-Agent "Yandex" bad_bot
+
+
 <Limit GET POST HEAD>
 Order Allow,Deny
 Allow from all
+
 # Cyveillance
 deny from 38.100.19.8/29
 deny from 38.100.21.0/24
@@ -234,5 +237,6 @@ deny from 38.118.42.32/29
 deny from 65.213.208.128/27
 deny from 65.222.176.96/27
 deny from 65.222.185.72/29
+
 Deny from env=bad_bot
 </Limit>
