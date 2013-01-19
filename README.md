@@ -15,8 +15,10 @@ Bad bots are defined as:
 - Chinese search engine Baidu
 
 [ Yandex/Baidu ]
+
 Unless your website is written in Russian or Chinese, you probably don't
 get any traffic from them. They mostly just waste bandwidth and consume resources.
+
 
 [ Bots Are Liars ]
 
@@ -25,6 +27,7 @@ useragent. Their useragents look harmless, perfectly legitimate even.
 For example, "^Java" but according to
 [Project Honeypot](https://www.projecthoneypot.org/harvester_useragents.php),
 it's actually one of the most dangerous.
+
 
 [ Setup ]
 
