@@ -14,13 +14,15 @@ Bad bots are defined as:
 - Russian search engine Yandex
 - Chinese search engine Baidu
 
-[ Yandex/Baidu ]
+Yandex/Baidu
+------------
 
 Unless your website is written in Russian or Chinese, you probably don't
 get any traffic from them. They mostly just waste bandwidth and consume resources.
 
 
-[ Bots Are Liars ]
+Bots Are Liars
+--------------
 
 Bots try to make themselves look like other software by disguising their
 useragent. Their useragents look harmless, perfectly legitimate even.
@@ -29,7 +31,8 @@ For example, "^Java" but according to
 it's actually one of the most dangerous.
 
 
-[ Setup ]
+Setup
+-----
 
 If you have a bizarre or complicated setup, be sure to look everything
 over before using it. But for anyone with something that resembles
