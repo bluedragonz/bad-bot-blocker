@@ -3,154 +3,82 @@ RewriteEngine on
 
 # Block Bad Bots & Scrapers
 
-#360sou.com from China. Scrapes all webpages. 
+#360sou.com from China crawler. 
 SetEnvIfNoCase User-Agent "360Spider" bad_bot
-
-#spammers often use default java crawlers. 
 SetEnvIfNoCase User-Agent "^Java" bad_bot
-
 #Cogent Search Bot from Cogent Software Solutions for unknown purposes
 SetEnvIfNoCase User-Agent "^Cogentbot" bad_bot
-
-#known spam bot, not much known. 
 SetEnvIfNoCase User-Agent "^Alexibot" bad_bot
-
 #Singingfish media spider (64.12.186.2xx) via AOL search 
 SetEnvIfNoCase User-Agent "^asterias" bad_bot
-
-#no data found
 SetEnvIfNoCase User-Agent "^attach" bad_bot
-
-#
 SetEnvIfNoCase User-Agent "^BackDoorBot" bad_bot
-
 #not sure, but could be Logitech Desktop Managers (LDM) Backweb (BW) update check 
 SetEnvIfNoCase User-Agent "^BackWeb" bad_bot'
-
-#
 SetEnvIfNoCase User-Agent "Bandit" bad_bot
-
-#
 SetEnvIfNoCase User-Agent "^BatchFTP" bad_bot
-
 #Larbin indexer used as Metacarta.com (66.28.xx.xxx) robot
 SetEnvIfNoCase User-Agent "^Bigfoot" bad_bot
-
-#
 SetEnvIfNoCase User-Agent "^Black.Hole" bad_bot
-
 #Consulting (was www.fsconsult.net) Black Widow web crawler 
 SetEnvIfNoCase User-Agent "^BlackWidow" bad_bot
-
-#
 SetEnvIfNoCase User-Agent "^BlowFish" bad_bot
-
-#
 SetEnvIfNoCase User-Agent "^BotALot" bad_bot
-
-#
 SetEnvIfNoCase User-Agent "Buddy" bad_bot
-
-#
 SetEnvIfNoCase User-Agent "^BuiltBotTough" bad_bot
-
 #http://www.nielsen-online.com/intlpage.html intelligence seeking robot, http://www.intelliseek.com/be/bullseye.htm 
 SetEnvIfNoCase User-Agent "^Bullseye" bad_bot
-
 #Crawler from Microsoft, used to determine server platform. 
 SetEnvIfNoCase User-Agent "^BunnySlippers" bad_bot
-
-#
 SetEnvIfNoCase User-Agent "^Cegbfeieh" bad_bot
-
-#
 SetEnvIfNoCase User-Agent "^CheeseBot" bad_bot
-
 #CherryPickerSE/1.0 CherryPickerElite/1.0 Email collectors
 SetEnvIfNoCase User-Agent "^CherryPicker" bad_bot
-
-#
 SetEnvIfNoCase User-Agent "^ChinaClaw" bad_bot
-
 #possibly an image collector
 SetEnvIfNoCase User-Agent "Collector" bad_bot
-
-#
 SetEnvIfNoCase User-Agent "Copier" bad_bot
-
-#
 SetEnvIfNoCase User-Agent "^CopyRightCheck" bad_bot
-
 #Xyleme SA France robot  http://www.xyleme.com/en/index.jsp 
 SetEnvIfNoCase User-Agent "^cosmos" bad_bot
-
-#
 SetEnvIfNoCase User-Agent "^Crescent" bad_bot
-
-#Custo allows you to quickly map the structure of a remote Web site. You can then browse files organized into virtual folders, explore, download, and open selected files.
+#Custo allows you to quickly map the structure of a remote Web site. You can then browse files organized into #virtual folders, explore, download, and open selected files.
 SetEnvIfNoCase User-Agent "^Custo" bad_bot
-
 #artificial intelligence search engine from 21seek.com, CHINA
 SetEnvIfNoCase User-Agent "^AIBOT" bad_bot
-
 #Download Accelerator 7.0, downloadaccelerator.com
 SetEnvIfNoCase User-Agent "^DA" bad_bot
-
 #DISCo Pump offline browser / website ripper  Notice:	No active homepage  Link:	http://www.arssoft.com/
 #Link:	http://www.filetransit.com/view.php?id=3870 
 SetEnvIfNoCase User-Agent "^DISCo" bad_bot
-
 #Findsame.com (site is offline) / Digital-Integrity robot 
 SetEnvIfNoCase User-Agent "^DIIbot" bad_bot
-
 #ditt.com ditto picture search robot
 SetEnvIfNoCase User-Agent "^DittoSpyder" bad_bot
-
-#
 SetEnvIfNoCase User-Agent "^Download" bad_bot
 SetEnvIfNoCase User-Agent "^Download\ Demon" bad_bot
 SetEnvIfNoCase User-Agent "^Download\ Devil" bad_bot
-
 #download wonder. www.forty.com
 SetEnvIfNoCase User-Agent "^Download\ Wonder" bad_bot
-
 #CMS, http://dragonflycms.org/
 SetEnvIfNoCase User-Agent "^dragonfly" bad_bot
-
-#
 SetEnvIfNoCase User-Agent "^Drip" bad_bot
-
 #now Wysigot offline browser
 SetEnvIfNoCase User-Agent "^eCatch" bad_bot
-
-#
 SetEnvIfNoCase User-Agent "^EasyDL" bad_bot
-
-#
 SetEnvIfNoCase User-Agent "^ebingbong" bad_bot
-
-#
 SetEnvIfNoCase User-Agent "^EirGrabber" bad_bot
-
 #I assume this collects emails. 
 SetEnvIfNoCase User-Agent "^EmailCollector" bad_bot
-
 #Sonic E-mail collector  http://www.americaint.com/superstore/elist.html sells 1 million emails at a time. 
 SetEnvIfNoCase User-Agent "^EmailSiphon" bad_bot
-
-#
 SetEnvIfNoCase User-Agent "^EmailWolf" bad_bot
-
 # adult search robot  http://www.erocrawler.com/
 SetEnvIfNoCase User-Agent "^EroCrawler" bad_bot
-
 #spider for search engine: exalead
 SetEnvIfNoCase User-Agent "^Exabot" bad_bot
-
 #express images browser
 SetEnvIfNoCase User-Agent "^Express\ WebPictures" bad_bot
-
-#
 SetEnvIfNoCase User-Agent "Extractor" bad_bot
 SetEnvIfNoCase User-Agent "^EyeNetIE" bad_bot
 SetEnvIfNoCase User-Agent "^Foobot" bad_bot
