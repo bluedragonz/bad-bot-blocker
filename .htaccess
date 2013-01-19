@@ -2,31 +2,83 @@ Options All -Indexes
 RewriteEngine on
 
 # Block Bad Bots & Scrapers
+
+#360sou.com from China. Scrapes all webpages. 
 SetEnvIfNoCase User-Agent "360Spider" bad_bot
+
+#spammers often use default java crawlers. 
 SetEnvIfNoCase User-Agent "^Java" bad_bot
+
+#Cogent Search Bot from Cogent Software Solutions for unknown purposes
 SetEnvIfNoCase User-Agent "^Cogentbot" bad_bot
+
+#known spam bot, not much known. 
 SetEnvIfNoCase User-Agent "^Alexibot" bad_bot
+
+#Singingfish media spider (64.12.186.2xx) via AOL search 
 SetEnvIfNoCase User-Agent "^asterias" bad_bot
+
+#no data found
 SetEnvIfNoCase User-Agent "^attach" bad_bot
+
+#
 SetEnvIfNoCase User-Agent "^BackDoorBot" bad_bot
-SetEnvIfNoCase User-Agent "^BackWeb" bad_bot
+
+#not sure, but could be Logitech Desktop Managers (LDM) Backweb (BW) update check 
+SetEnvIfNoCase User-Agent "^BackWeb" bad_bot'
+
+#
 SetEnvIfNoCase User-Agent "Bandit" bad_bot
+
+#
 SetEnvIfNoCase User-Agent "^BatchFTP" bad_bot
+
+#Larbin indexer used as Metacarta.com (66.28.xx.xxx) robot
 SetEnvIfNoCase User-Agent "^Bigfoot" bad_bot
+
+#
 SetEnvIfNoCase User-Agent "^Black.Hole" bad_bot
+
+#Consulting (was www.fsconsult.net) Black Widow web crawler 
 SetEnvIfNoCase User-Agent "^BlackWidow" bad_bot
+
+#
 SetEnvIfNoCase User-Agent "^BlowFish" bad_bot
+
+#
 SetEnvIfNoCase User-Agent "^BotALot" bad_bot
+
+#
 SetEnvIfNoCase User-Agent "Buddy" bad_bot
+
+#
 SetEnvIfNoCase User-Agent "^BuiltBotTough" bad_bot
+
+#http://www.nielsen-online.com/intlpage.html intelligence seeking robot, http://www.intelliseek.com/be/bullseye.htm 
 SetEnvIfNoCase User-Agent "^Bullseye" bad_bot
+
+#Crawler from Microsoft, used to determine server platform. 
 SetEnvIfNoCase User-Agent "^BunnySlippers" bad_bot
+
+#
 SetEnvIfNoCase User-Agent "^Cegbfeieh" bad_bot
+
+#
 SetEnvIfNoCase User-Agent "^CheeseBot" bad_bot
+
+#CherryPickerSE/1.0 CherryPickerElite/1.0 Email collectors
 SetEnvIfNoCase User-Agent "^CherryPicker" bad_bot
+
+#
 SetEnvIfNoCase User-Agent "^ChinaClaw" bad_bot
+
+#possibly an image collector
 SetEnvIfNoCase User-Agent "Collector" bad_bot
+
+#
 SetEnvIfNoCase User-Agent "Copier" bad_bot
+
+#
 SetEnvIfNoCase User-Agent "^CopyRightCheck" bad_bot
 SetEnvIfNoCase User-Agent "^cosmos" bad_bot
 SetEnvIfNoCase User-Agent "^Crescent" bad_bot
