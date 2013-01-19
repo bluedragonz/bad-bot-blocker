@@ -242,6 +242,5 @@ deny from 38.118.42.32/29
 deny from 65.213.208.128/27
 deny from 65.222.176.96/27
 deny from 65.222.185.72/29
-deny from 38.0.0.0/8
 Deny from env=bad_bot
 </Limit>
