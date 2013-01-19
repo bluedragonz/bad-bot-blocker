@@ -12,4 +12,4 @@ Some of the stuff blocked:
 - Aggressive bots that provide little value
 - Bots without a useragent
 - Bots linked to viruses or malware
-- Government surveillance bots (Cyveillance)
+- Government surveillance bots
