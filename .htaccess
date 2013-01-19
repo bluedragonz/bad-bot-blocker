@@ -2,7 +2,6 @@ Options All -Indexes
 RewriteEngine on
 
 # Block Bad Bots & Scrapers
-SetEnvIfNoCase User-Agent ^$ bad_bot
 SetEnvIfNoCase User-Agent "360Spider" bad_bot
 SetEnvIfNoCase User-Agent "^Atomic" bad_bot
 SetEnvIfNoCase User-Agent "^Java" bad_bot
@@ -32,7 +31,6 @@ SetEnvIfNoCase User-Agent "Copier" bad_bot
 SetEnvIfNoCase User-Agent "^CopyRightCheck" bad_bot
 SetEnvIfNoCase User-Agent "^cosmos" bad_bot
 SetEnvIfNoCase User-Agent "^Crescent" bad_bot
-SetEnvIfNoCase User-Agent "^Curl" bad_bot
 SetEnvIfNoCase User-Agent "^Custo" bad_bot
 SetEnvIfNoCase User-Agent "Baiduspider" bad_bot
 SetEnvIfNoCase User-Agent "Yandex" bad_bot
@@ -220,8 +218,6 @@ SetEnvIfNoCase User-Agent "^Webster" bad_bot
 SetEnvIfNoCase User-Agent "^WebStripper" bad_bot
 SetEnvIfNoCase User-Agent "^WebWhacker" bad_bot
 SetEnvIfNoCase User-Agent "^WebZIP" bad_bot
-SetEnvIfNoCase User-Agent "^Wget" bad_bot
-SetEnvIfNoCase User-Agent "^libwww-perl" bad_bot
 SetEnvIfNoCase User-Agent "Whacker" bad_bot
 SetEnvIfNoCase User-Agent "^Widow" bad_bot
 SetEnvIfNoCase User-Agent "^WISENutbot" bad_bot
