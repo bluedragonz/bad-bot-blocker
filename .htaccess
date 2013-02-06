@@ -2,6 +2,7 @@ Options All -Indexes
 RewriteEngine on
 
 # Block Bad Bots & Scrapers
+SetEnvIfNoCase User-Agent "Aboundex" bad_bot
 SetEnvIfNoCase User-Agent "360Spider" bad_bot
 SetEnvIfNoCase User-Agent "^Java" bad_bot
 SetEnvIfNoCase User-Agent "^Cogentbot" bad_bot
