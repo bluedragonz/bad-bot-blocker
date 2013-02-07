@@ -8,6 +8,7 @@ Bad bots are defined as:
 - E-mail harvesters
 - Content scrapers
 - Spam bots
+- Vulnerability scanners
 - Aggressive bots that provide little value
 - Bots linked to viruses or malware
 - Government surveillance bots
