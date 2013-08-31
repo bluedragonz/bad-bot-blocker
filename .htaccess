@@ -210,6 +210,7 @@ SetEnvIfNoCase User-Agent "^WWW-Collector-E" bad_bot
 SetEnvIfNoCase User-Agent "^Xaldon" bad_bot
 SetEnvIfNoCase User-Agent "^Xenu" bad_bot
 SetEnvIfNoCase User-Agent "^Zeus" bad_bot
+SetEnvIfNoCase User-Agent "ZmEu" bad_bot
 SetEnvIfNoCase User-Agent "^Zyborg" bad_bot
 
 # Vulnerability Scanners
