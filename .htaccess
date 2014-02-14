@@ -90,8 +90,8 @@ SetEnvIfNoCase User-Agent "^lftp" bad_bot
 SetEnvIfNoCase User-Agent "^libWeb/clsHTTP" bad_bot
 SetEnvIfNoCase User-Agent "^likse" bad_bot
 SetEnvIfNoCase User-Agent "^LinkextractorPro" bad_bot
-SetEnvIfNoCase User-Agent "^LinkScan/8.1a.Unix" bad_bo
-SetEnvIfNoCase User-Agent "^LNSpiderguy" bad_bott
+SetEnvIfNoCase User-Agent "^LinkScan/8.1a.Unix" bad_bot
+SetEnvIfNoCase User-Agent "^LNSpiderguy" bad_bot
 SetEnvIfNoCase User-Agent "^LinkWalker" bad_bot
 SetEnvIfNoCase User-Agent "^lwp-trivial" bad_bot
 SetEnvIfNoCase User-Agent "^LWP::Simple" bad_bot
