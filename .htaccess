@@ -123,6 +123,7 @@ SetEnvIfNoCase User-Agent "^NetZIP" bad_bot
 SetEnvIfNoCase User-Agent "^NextGenSearchBot" bad_bot
 SetEnvIfNoCase User-Agent "^NG" bad_bot
 SetEnvIfNoCase User-Agent "^NICErsPRO" bad_bot
+SetEnvIfNoCase User-Agent "^niki-bot" bad_bot
 SetEnvIfNoCase User-Agent "^NimbleCrawler" bad_bot
 SetEnvIfNoCase User-Agent "^Ninja" bad_bot
 SetEnvIfNoCase User-Agent "^NPbot" bad_bot
