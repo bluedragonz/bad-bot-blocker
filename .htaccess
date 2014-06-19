@@ -3,6 +3,7 @@ RewriteEngine on
 
 # Block Bad Bots & Scrapers
 SetEnvIfNoCase User-Agent "Aboundex" bad_bot
+SetEnvIfNoCase User-Agent "AhrefsBot" bad_bot
 SetEnvIfNoCase User-Agent "80legs" bad_bot
 SetEnvIfNoCase User-Agent "360Spider" bad_bot
 SetEnvIfNoCase User-Agent "^Java" bad_bot
@@ -17,6 +18,7 @@ SetEnvIfNoCase User-Agent "^BatchFTP" bad_bot
 SetEnvIfNoCase User-Agent "^Bigfoot" bad_bot
 SetEnvIfNoCase User-Agent "^Black.Hole" bad_bot
 SetEnvIfNoCase User-Agent "^BlackWidow" bad_bot
+SetEnvIfNoCase User-Agent "BLEXBot" bad_bot
 SetEnvIfNoCase User-Agent "^BlowFish" bad_bot
 SetEnvIfNoCase User-Agent "^BotALot" bad_bot
 SetEnvIfNoCase User-Agent "Buddy" bad_bot
@@ -108,6 +110,7 @@ SetEnvIfNoCase User-Agent "^MIIxpc" bad_bot
 SetEnvIfNoCase User-Agent "^Mirror" bad_bot
 SetEnvIfNoCase User-Agent "^Missigua\ Locator" bad_bot
 SetEnvIfNoCase User-Agent "^Mister\ PiX" bad_bot
+SetEnvIfNoCase User-Agent "MJ12bot" bad_bot
 SetEnvIfNoCase User-Agent "^moget" bad_bot
 SetEnvIfNoCase User-Agent "^Mozilla/3.Mozilla/2.01" bad_bot
 SetEnvIfNoCase User-Agent "^Mozilla.*NEWT" bad_bot
