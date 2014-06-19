@@ -108,6 +108,7 @@ SetEnvIfNoCase User-Agent "^MIIxpc" bad_bot
 SetEnvIfNoCase User-Agent "^Mirror" bad_bot
 SetEnvIfNoCase User-Agent "^Missigua\ Locator" bad_bot
 SetEnvIfNoCase User-Agent "^Mister\ PiX" bad_bot
+SetEnvIfNoCase User-Agent "^MJ12bot" bad_bot
 SetEnvIfNoCase User-Agent "^moget" bad_bot
 SetEnvIfNoCase User-Agent "^Mozilla/3.Mozilla/2.01" bad_bot
 SetEnvIfNoCase User-Agent "^Mozilla.*NEWT" bad_bot
