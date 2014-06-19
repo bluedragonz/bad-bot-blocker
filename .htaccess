@@ -18,6 +18,7 @@ SetEnvIfNoCase User-Agent "^BatchFTP" bad_bot
 SetEnvIfNoCase User-Agent "^Bigfoot" bad_bot
 SetEnvIfNoCase User-Agent "^Black.Hole" bad_bot
 SetEnvIfNoCase User-Agent "^BlackWidow" bad_bot
+SetEnvIfNoCase User-Agent "BLEXBot" bad_bot
 SetEnvIfNoCase User-Agent "^BlowFish" bad_bot
 SetEnvIfNoCase User-Agent "^BotALot" bad_bot
 SetEnvIfNoCase User-Agent "Buddy" bad_bot
