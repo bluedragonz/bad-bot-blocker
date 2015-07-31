@@ -218,6 +218,7 @@ SetEnvIfNoCase User-Agent "^Zyborg" bad_bot
 # Vulnerability Scanners
 SetEnvIfNoCase User-Agent "Acunetix" bad_bot
 SetEnvIfNoCase User-Agent "FHscan" bad_bot
+SetEnvIfNoCase User-Agent "Netsparker" bad_bot
 
 # Aggressive Chinese Search Engine
 SetEnvIfNoCase User-Agent "Baiduspider" bad_bot
